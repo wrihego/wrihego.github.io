@@ -111,6 +111,7 @@ font-weight: 100;
 
 .column h3 {
 font-weight: 100;
+margin-bottom: 100px;
 }
 
 .column img {
@@ -161,6 +162,7 @@ padding: 0;
 footer {
   background-color: #A2C080;
   padding: 30px 0px 10px 0px;
+  margin-top: 100px;
   
 }
 
