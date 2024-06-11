@@ -14,7 +14,7 @@
 
   <ul class="nav">
     <div class="home">
-      <!--막힌 부분 --><a href="./index.html"><img src="../web-main/image/헤더패턴.png"></a>
+      <!--막힌 부분 --><a href="./index.html"><img src="./web-main/image/헤더패턴.png"></a>
       <!--이미지 링크와 상단바의 분리-->
     </div>
     <li><a href="./html2/notice.html">공지사항</a></li>
@@ -48,16 +48,16 @@
     function blink() {
        var click = document.getElementById('letter');
           if(click.src.match("편지")) {
-             click.src = "C:\Users\User\Desktop\web-main\web-main\image\환영카드.png";
+             click.src = "./web-main/image/환영카드.png";
           } else {
-             click.src = "C:\Users\User\Desktop\web-main\web-main\image\편지.png";
+             click.src = "./web-main/image/편지.png";
           }
     }
     </script>
     
     
      <button type="button">
-      <img id="letter" onclick="blink()" src="C:\Users\User\Desktop\web-main\web-main\image\편지.png" width="256" height="256">
+      <img id="letter" onclick="blink()" src="./web-main/image/편지.png" width="256" height="256">
     </button>
 
 
