@@ -1,0 +1,176 @@
+*{
+    font-family: "Noto Sans KR", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding:0px;
+    color:black;
+    box-sizing: border-box;
+  
+  }
+  
+  h1{
+  font-size: 70px;
+  font-weight: 100;
+  
+  }
+  
+  .contents1{
+    font-size:20px;
+    font-weight: lighter;
+  }
+  
+  
+  .intro_bg{
+    display: inline-block;
+    background-image: url("../image/커피.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:600px;
+  }
+  
+  .intro_text{
+    margin: 200px auto;
+   padding-top: 10px;
+    width:100%;
+    text-align: center;
+  
+  }
+  
+  .intro_text h1, .intro_text h4 {
+    color: white;
+  }
+
+  
+  
+  .nav {
+    list-style-type: none;
+    padding: 15px;
+    overflow: visible; 
+    background-color: #A2C080;
+    text-align: center;
+    position: sticky;
+    font-size: 20px;
+    top:0px;
+  }
+  
+  .home{
+    display: block;
+    margin:auto;
+    width: 100%;
+  
+  }
+  
+  
+  .nav >li {
+    display: inline-block;
+  
+  }
+  
+  .nav > li a, .dropbtn {  
+    display: inline-block;
+    padding: 14px 40px;
+    color: white;
+    text-align: center;
+  }
+  
+  .nav > li a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+    color:#A2C080;
+    
+  }
+
+  
+  .header {
+    background-color: #A2C080;
+    padding: 40px;
+    text-align: center;
+    
+    
+  }
+  
+  .header h4{
+    color:white;
+  }
+
+  .column {
+    text-align: center;
+    padding-top:150px;
+    padding-bottom: 100px;
+    width:100%;
+    background-color:#F5F5F5;
+  }
+  
+  
+.column h1 {
+  font-weight:300;
+  padding-bottom: 100px;
+}
+
+ 
+
+  
+footer {
+  background-color: #A2C080;
+  padding: 30px 0px 10px 0px;
+  
+}
+
+.footer_text p{
+text-align: center;
+color: white;
+}
+
+  
+
+
+  @media screen and (max-width:800px) {
+    .column{
+         padding-bottom: 10%;
+    }
+    .column h1 {
+        font-size: 200%;
+        padding-bottom: 40px;
+    }
+    .column img {
+      width:50%;
+      height:auto;
+      padding: 0 30px 10px 30px;
+  }
+  .column h4 {
+    font-size: 100%;
+}
+
+.column pre{
+  font-size: 90%;
+ word-wrap: break-word;
+}
+
+.intro_bg{
+  width: 100%;
+  height: auto;
+}
+
+.intro_text{
+  padding-top:0px;
+  padding-bottom:20px;
+  margin:100px auto;
+}
+
+.intro_text h1{
+  font-size: 50px;
+}
+
+.header h1{
+  font-size: 40px;
+}
+
+.footer_text{
+  font-size:90%;
+}
+  }
+
+
+
