@@ -55,7 +55,19 @@
 
   <div class="column">
     <h1>이달의 행사</h1>
-    <img src="../image/티켓.png" >
+   <script>
+      function blink() {
+         var click = document.getElementById('coupon');
+            if(click.src.match("%ED%8B%B0%EC%BC%93")) {
+               click.src = "https://wrihego.github.io/image/%EB%8B%B9%EC%B2%A8.png";
+            }
+      }
+      </script>
+      
+      
+       <button type="button">
+        <img id="coupon" onclick="blink()" src="https://wrihego.github.io/image/%ED%8B%B0%EC%BC%93.png" width="500" height="270">
+      </button>
     <h2>이벤트 기간: 2024.05.12 ~ 2024.06.12 까지</h2>
     <h4 class="contents1">
       <pre>
