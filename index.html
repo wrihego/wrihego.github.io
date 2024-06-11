@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Carpe Diem </title> <!-- 카페 이름 -->
-    <link rel="icon" type="image/x-icon" href="./image/파비콘.ico"> <!-- 파비콘 -->
+    <link rel="icon" type="image/x-icon" href="/image/파비콘.ico"> <!-- 파비콘 -->
     <link rel="stylesheet" href="./css/mystyle.css"> <!--외부 css-->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
 </head>
@@ -14,7 +14,7 @@
 
   <ul class="nav">
     <div class="home">
-      <!--막힌 부분 --><a href="./index.html"><img src="./web-main/image/헤더패턴.png"></a>
+      <!--막힌 부분 --><a href="./index.html"><img src="/image/헤더패턴.png"></a>
       <!--이미지 링크와 상단바의 분리-->
     </div>
     <li><a href="./html2/notice.html">공지사항</a></li>
@@ -48,16 +48,16 @@
     function blink() {
        var click = document.getElementById('letter');
           if(click.src.match("편지")) {
-             click.src = "./web-main/image/환영카드.png";
+             click.src = "/image/환영카드.png";
           } else {
-             click.src = "./web-main/image/편지.png";
+             click.src = "/image/편지.png";
           }
     }
     </script>
     
     
      <button type="button">
-      <img id="letter" onclick="blink()" src="./web-main/image/편지.png" width="256" height="256">
+      <img id="letter" onclick="blink()" src="/image/편지.png" width="256" height="256">
     </button>
 
 
