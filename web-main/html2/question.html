@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Carpe Diem </title> <!-- 카페 이름 -->
+    <link rel="icon" type="image/x-icon" href="../image/파비콘.ico"> <!-- 파비콘 -->
+    <link rel="stylesheet" href="../css/qquestion.css"> <!--외부 css-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+  
+
+    <ul class="nav">
+     <div class="home">
+       <!--막힌 부분 --><a href="../main.html"><img src="../image/헤더패턴.png"></a>
+       <!--이미지 링크와 상단바의 분리-->
+     </div>
+     <li><a href="./notice.html">공지사항</a></li>
+     <li><a href="./menu.html">메뉴소개</a></li>
+     <li><a href="./event.html">행사안내</a></li>
+     <li><a href="./question.html">고객센터</a></li>
+   </ul>
+
+   <div class="intro_bg" >
+    <div class="intro_text">
+      <h1> Carpe Diem </h1>
+      <h4 class="contents1"> 현재의 시간을 바라보는 곳.</h4>
+    </div>
+ </div>
+
+
+
+ <div class="header"> 
+  <h1>CUSTOMER SERVICE</h1>
+  <h4 class="contents1"> 도움이 필요하신가요?</h4>
+  </div>
+
+
+  <div class="row">
+    <div class="column">
+      <div class="service">
+  <h1>고객센터</h1>
+<h4 class="contents1">카르페 디엠은 고객님들의 목소리에 귀를 기울입니다.</h4>
+
+<form action="/action_page.php">
+
+ <label for="name">성함:</label>
+  <input type="text" id="fname" name="name" value=""> &nbsp;
+  
+  
+ <label for="phone">전화번호:</label>
+  <input type="tel" id="phone" name="phone" placeholder="123-4567-8910" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" required><br><br>
+  
+  <label for="email">이메일:</label> 
+  <input type="email" id="email" name="email"><br><br>
+  
+  <label for="question">문의 종류:</label>
+  <select id="claim" name="claim">
+    <option value="제품 품질 불만">제품 품질 불만</option>
+     <option value="품목 미제공">품목 미제공</option>
+      <option value="현금 영수증 미발급">현금 영수증 미발급</option>
+     <option value="이물질">이물질</option>
+    <option value="매장/고객센터 응대 불만">매장/고객센터 응대 불만</option>
+    <option value="문의사항(메뉴,매장,가맹 등)">문의사항(메뉴,매장,가맹 등)</option>
+    <option value="기타">기타</option>
+  </select>
+
+ <br><br>
+  <textarea name="message" rows="10" cols="90">문의 내용을 작성하세요.</textarea>
+  <br><br>
+    <div class="filee">
+    <label for="myfile">파일 첨부1:</label>
+    <input type="file" id="myfile" name="myfile"><br><br>
+   <label for="myfile">파일 첨부2:</label>
+    <input type="file" id="myfile" name="myfile"><br><br>
+   <label for="myfile">파일 첨부3:</label>
+   <input type="file" id="myfile" name="myfile"><br><br>
+  </div>
+  <button type="button" onclick="alert('접수가 완료됐습니다. 답변은 이메일로 전송됩니다.')">제출하기</button>
+</form>
+</div>
+</div>
+</div>
+
+<footer>
+  <h4 class="contents1">
+<div class="footer_text">
+<p>주식회사 JIPEGALGE 대표자 김**  창업상담 1588-**** 고객센터 1588-**** FAX 02-***-5199</p>
+<p>서울특별시 강남구 **로 105 11층, 13층 (주)JIPEGALGE 개인정보보호 관리책임자 이**</p>
+</div>
+  </h4>
+</footer>
+
+
+
+
+</body>
+</html>
